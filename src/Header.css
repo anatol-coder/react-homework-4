@@ -1,3 +1,28 @@
+.Header {
+  padding: 25px;
+}
+
 .Header form {
   text-align: center;
+  padding: 30px;
+  border-radius: 20px;
+}
+.Header input[type="text"],
+textarea {
+  width: 50%;
+  padding: 15px;
+  border: none;
+  background-color: #f9f7fe;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #f2f0f9;
+}
+.Header input[type="submit"] {
+  background-color: #885df1;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
 }
