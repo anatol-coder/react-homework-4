@@ -2,3 +2,7 @@
   background-color: #f9f7fe;
   font-family: Helvetica, Arial, sans-serif;
 }
+.App .body {
+  background-color: white;
+  weight: 50%;
+}
