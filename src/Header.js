@@ -6,8 +6,8 @@ export default function Header() {
     <div className="Header">
       <img src="./logo-small.png" alt="logoshecodes" />
       <form>
-        <input type="text" placeholder="Enter a city..." className="city" />
-        <input type="submit" value="Search" className="search" />
+        <input type="text" placeholder="Enter a city..." />
+        <input type="submit" value="Search" />
       </form>
     </div>
   );

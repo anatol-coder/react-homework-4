@@ -4,5 +4,6 @@
 }
 .App .body {
   background-color: white;
-  weight: 50%;
+  margin: 60px;
+  border-radius: 10px;
 }
