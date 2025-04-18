@@ -1,6 +1,10 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Main.css";
+import { WiCloudy } from "weather-icons-react";
+import { WiCloud } from "weather-icons-react";
+import { WiDaySunny } from "weather-icons-react";
+import { WiDayCloudy } from "weather-icons-react";
 
 export default function Main() {
   return (
@@ -14,15 +18,48 @@ export default function Main() {
             Humidity: 82%, Wind: 3.13km/h
           </p>
         </div>
-        <h2>13°C</h2>
+        <div class="d-flex">
+          <WiCloudy size={34} color="#000" />
+          <h2>13°C</h2>
+        </div>
       </div>
       <div class="container m-2 p-3">
         <div class="row">
-          <div class="col">Thu</div>
-          <div class="col">Fri</div>
-          <div class="col">Sat</div>
-          <div class="col">Sun</div>
-          <div class="col">Mon</div>
+          <div class="col">
+            Thu
+            <br />
+            <WiCloud size={24} color="#000" />
+            <br />
+            15° 11°
+          </div>
+          <div class="col">
+            Fri
+            <br />
+            <WiDaySunny size={24} color="#000" />
+            <br />
+            18° 9°
+          </div>
+          <div class="col">
+            Sat
+            <br />
+            <WiDayCloudy size={24} color="#000" />
+            <br />
+            16° 11°
+          </div>
+          <div class="col">
+            Sun
+            <br />
+            <WiDayCloudy size={24} color="#000" />
+            <br />
+            16° 10°
+          </div>
+          <div class="col">
+            Mon
+            <br />
+            <WiDaySunny size={24} color="#000" />
+            <br />
+            16° 10°
+          </div>
         </div>
       </div>
     </div>
