@@ -1,4 +1,50 @@
 .Main {
-  padding: 20px;
-  margin: 20px;
+  margin-top: 0;
+  margin-left: 35px;
+  margin-right: 25px;
+}
+.Main h1 {
+  color: #272142;
+  font-weight: 700;
+  line-height: 48px;
+}
+.Main h2 {
+  color: #212121;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 1;
+  margin-left: 10px;
+}
+.Main .celsius {
+  font-size: 28px;
+}
+.Main .cloud {
+  margin-top: 20px;
+}
+.Main span {
+  color: #f65282;
+}
+.Main .data {
+  color: #27214266;
+}
+.Main strong {
+  color: #27214266;
+  font-weight: normal;
+  margin-left: 7px;
+}
+.Main span.temperature-max {
+  color: #f65282;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-left: -10px;
+}
+.Main span.temperature-min {
+  color: #f65282;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+  opacity: 0.6;
 }

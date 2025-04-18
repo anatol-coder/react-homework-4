@@ -11,54 +11,74 @@ export default function Main() {
     <div className="Main">
       <div class="d-flex justify-content-between m-2 p-3">
         <div>
-          <h2>San Francisco</h2>
-          <p>
+          <h1>San Francisco</h1>
+          <p className="data">
             Thursday 18:59, overcast clouds
             <br />
-            Humidity: 82%, Wind: 3.13km/h
+            Humidity: <span>82%</span>, Wind: <span>3.13km/h</span>
           </p>
         </div>
-        <div class="d-flex">
-          <WiCloudy size={34} color="#000" />
-          <h2>13°C</h2>
+        <div class="d-flex mt-3">
+          <div className="cloud">
+            <WiCloudy size={55} color="#000" />
+          </div>
+          <h2>13</h2>
+          <p className="celsius" class="pt-2 h-75">
+            °C
+          </p>
         </div>
       </div>
       <div class="container m-2 p-3">
         <div class="row">
           <div class="col">
-            Thu
+            <strong>Thu </strong>
             <br />
-            <WiCloud size={24} color="#000" />
             <br />
-            15° 11°
+            <WiCloud size={40} color="#000" />
+            <br />
+            <br />
+            <span class="temperature-max">15°</span>
+            <span class="temperature-min"> 11°</span>
           </div>
           <div class="col">
-            Fri
+            <strong>Fri</strong>
             <br />
-            <WiDaySunny size={24} color="#000" />
             <br />
-            18° 9°
+            <WiDaySunny size={40} color="#000" />
+            <br />
+            <br />
+            <span class="temperature-max">18°</span>{" "}
+            <span class="temperature-min"> 9°</span>
           </div>
           <div class="col">
-            Sat
+            <strong>Sat</strong>
             <br />
-            <WiDayCloudy size={24} color="#000" />
             <br />
-            16° 11°
+            <WiDayCloudy size={40} color="#000" />
+            <br />
+            <br />
+            <span class="temperature-max">16°</span>{" "}
+            <span class="temperature-min">11°</span>
           </div>
           <div class="col">
-            Sun
+            <strong>Sun</strong>
             <br />
-            <WiDayCloudy size={24} color="#000" />
             <br />
-            16° 10°
+            <WiDayCloudy size={40} color="#000" />
+            <br />
+            <br />
+            <span class="temperature-max">16°</span>{" "}
+            <span class="temperature-min">10°</span>
           </div>
           <div class="col">
-            Mon
+            <strong>Mon</strong>
             <br />
-            <WiDaySunny size={24} color="#000" />
             <br />
-            16° 10°
+            <WiDaySunny size={40} color="#000" />
+            <br />
+            <br />
+            <span class="temperature-max">16°</span>{" "}
+            <span class="temperature-min">10°</span>
           </div>
         </div>
       </div>

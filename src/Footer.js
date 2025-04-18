@@ -8,7 +8,7 @@ export default function Footer() {
       <a href="https://www.shecodes.io" target="_blank" rel="noreferrer">
         SheCodes
       </a>{" "}
-      and is
+      and is {""}
       <a
         href="https://github.com/anatol-coder/react-homework-4"
         target="_blank"
